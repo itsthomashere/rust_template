@@ -1,7 +1,16 @@
 [package]
 name = "template"
 version = "0.1.0"
+author = "dac.bui308@gmail.com"
 edition = "2021"
+
+[[bin]]
+name = "example_server"
+path = "src/server.rs"
+
+[[bin]]
+name = "example_client"
+path = "src/client.rs"
 
 [dependencies]
 prost = "0.13.4"
